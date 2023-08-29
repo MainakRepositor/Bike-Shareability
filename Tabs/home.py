@@ -15,8 +15,6 @@ def app():
     # Add brief describtion of your web app
     st.markdown(
     """<p style="font-size:20px;">
-            Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy.
-            There isn’t a cure yet for diabetes, but losing weight, eating healthy food, and being active can really help in reducing the impact of diabetes.
-            This Web app will help you to predict whether a person has diabetes or is prone to get diabetes in future by analysing the values of several features using the Random Forest Classifier.
+            🏍️ "Unleash the Thrill, Share the Ride: Introducing Motorbike Shareability, India's New Adventure Avenue! 🇮🇳 Embark on a revolutionary journey where every twist of the road becomes a shared memory. Imagine cruising through the vibrant tapestry of India's landscapes, from bustling bazaars to serene ghats, all while forging unforgettable connections. With our state-of-the-art motorbike sharing platform, ignite a sense of camaraderie as you swap stories at every pitstop, creating bonds as strong as steel. Fuel both your wanderlust and your eco-conscious spirit by reducing your carbon footprint, one exhilarating ride at a time. Whether you're a lone wolf seeking companions for your escapades or a social spirit eager to rev up with new friends, motorbike shareability caters to every rider's fantasy. Join us in redefining travel, one shared adventure under the sun. 🌄 Let's ride together, let's ride India!" 🌟🛵
         </p>
     """, unsafe_allow_html=True)
